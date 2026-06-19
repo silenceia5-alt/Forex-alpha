@@ -3,8 +3,9 @@ import pandas as pd
 import numpy as np
 from datetime import datetime
 import time
+import os
 
-API_KEY = "MZOBZLSRK40XHC95"
+API_KEY = os.getenv("API_KEY")
 
 symbols = [("EUR", "USD")]
 
